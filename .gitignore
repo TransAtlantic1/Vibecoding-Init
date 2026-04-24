@@ -1,0 +1,4 @@
+.env
+*.bak.*
+.claude_home*/
+.codex_home*/
