@@ -240,6 +240,7 @@ setup_h1_proxy() {
 server {
     listen 127.0.0.1:${H1_PROXY_PORT};
     server_name localhost;
+    client_max_body_size 50M;
 
     location / {
         proxy_pass ${BASE_SCHEME}://${BASE_HOSTPORT};
