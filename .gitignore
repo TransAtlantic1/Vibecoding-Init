@@ -2,3 +2,4 @@
 *.bak.*
 .claude_home*/
 .codex_home*/
+.ipynb_checkpoints/
